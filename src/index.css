@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Custom styles */
+body {
+  background-color: #1c1f25 !important;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.section {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.card-text {
+  background-color: transparent;
+}
